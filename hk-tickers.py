@@ -18,7 +18,7 @@ tickers = [
 ]
 
 # Date range
-end_date = datetime.today() - timedelta(days=1)
+end_date = datetime.today() - timedelta(days=0)
 start_date = end_date - timedelta(days=730)
 
 df = yf.download(
